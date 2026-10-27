@@ -3,3 +3,9 @@ email=input("emailinizi daxil edin:")
 sifre = input("sifrenizi daxil edin:")
 if email=="true" and sifre=="true":
     print("deyisende saxlayin:")
+elif email=="false":
+    print("hesab tapilmadi:")
+elif sifre =="false":
+    print("sifre yanlisdi:")
+elif email=="true" and sifre=="True":
+    print("xos geldiniz:")
